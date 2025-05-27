@@ -1,0 +1,1 @@
+//Plamtilla HTML para renderizar paginas

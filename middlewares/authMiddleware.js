@@ -1,0 +1,1 @@
+//Verifica si el usuario esta autentificado antes de acceder a rutas
