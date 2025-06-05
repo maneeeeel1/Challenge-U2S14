@@ -1,3 +1,39 @@
 {
-    "comentario": "Lista de dependencias"
+  "name": "challenge-u2s14",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test":"jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maneeeeel1/Challenge-U2S14.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maneeeeel1/Challenge-U2S14/issues"
+  },
+  "homepage": "https://github.com/maneeeeel1/Challenge-U2S14#readme",
+  "dependencies": {
+    "cloudinary": "1.41.3",
+    "dotenv": "16.5.0",
+    "express": "5.1.0",
+    "express-session": "1.18.1",
+    "helmet": "8.1.0",
+    "jest": "29.7.0",
+    "method-override": "3.0.0",
+    "mongoose": "8.15.1",
+    "multer": "2.0.0",
+    "multer-storage-cloudinary": "4.0.0",
+    "supertest": "7.1.1",
+    "swagger-ui-express": "^5.0.1"
+  }
 }

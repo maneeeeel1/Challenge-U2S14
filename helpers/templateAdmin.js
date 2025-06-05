@@ -1,6 +1,6 @@
-const { getNavBar } = require("./getNavBar.js")
+const { getNavBarAdmin } = require("./getNavBarAdmin.js")
 
-function templateHtml(content){
+function templateHtmlAdmin(content){
     return `
     <!DOCTYPE html>
     <html lang="es">
@@ -10,7 +10,7 @@ function templateHtml(content){
       </head>
           <body>
             <nav style="margin: 20px;">
-              ${getNavBar()}
+              ${getNavBarAdmin()}
             </nav>
             <div style="display: flex; flex-wrap: wrap; gap: 50px; justify-content: center;">
               ${content}
@@ -19,4 +19,4 @@ function templateHtml(content){
     </html>
     `;
 }
-module.exports = templateHtml;
+module.exports = templateHtmlAdmin;
